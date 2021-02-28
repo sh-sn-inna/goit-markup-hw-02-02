@@ -1,0 +1,270 @@
+:root{
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+background color: #E5E5E5;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+.logo-header {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:#212121;
+}
+
+.logo-link {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.logo-header:hover,
+.logo-header:focus {
+color: #2196F3;
+cursor: pointer;
+}
+
+.navigation-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+color: #2196F3;
+cursor: pointer;
+}
+
+.tel-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+cursor: pointer;
+}
+
+.tel-link:hover,
+.tel-link:focus {
+color: #2196F3;
+cursor: pointer;
+}
+
+.contact-link {
+font-weight: normal;
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+color: #2196F3;
+cursor: pointer;
+}
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2F303A;
+}
+
+.hero-title:hover,
+.hero-title:focus {
+color: #2196F3;
+}
+
+.modal-btm {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: #2196F3;
+}
+
+.modal-btm:hover,
+.modal-btm:focus {
+background-color: #2196F3;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.features-list-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.features-list-title:hover,
+.features-list-title:focus {
+color: #2196F3;
+}
+
+.features-list-description {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.features-list-description:hover,
+.features-list-description:focus {
+color: #2196F3;
+}
+
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.title:hover,
+.title:focus {
+color: #2196F3;
+}
+
+.about-img:hover,
+.about-img:focus {
+color: #2196F3;
+}
+
+.team-list-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-list-title:hover,
+.team-list-title:focus {
+color: #2196F3;
+}
+
+.team-list-position{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.team-list-position:hover,
+.team-list-position:focus {
+color: #2196F3;
+}
+
+.footer{
+background-color: #2F303A;
+}
+
+.logo-footer {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+color:  #2196F3;
+cursor: pointer;
+}
+
+.address-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.46;
+letter-spacing: 0.03em;
+color: #ffffff; 
+}
+
+.address-link:hover,
+.address-link:focus {
+color: #2196F3;
+cursor: pointer;
+}
+/*========= portfolio ========*/
+
+.filter-btm {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+background-color: #F5F4FA;
+}
+
+.filter-btm:hover,
+.filter-btm:focus {
+background-color: #2196F3;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.projects-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+background-color: #F5F4FA;
+color: #212121;
+}
+
+.projects-title:hover,
+.projects-title:focus {
+color: #2196F3; 
+cursor: pointer;
+}
+
+.projects-description{
+font-weight: 400;
+font-size: 16px;
+line-height: 1,87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.projects-description:hover,
+.projects-description:focus {
+color: #2196F3; 
+cursor: pointer;
+}
