@@ -14,17 +14,16 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
-
 </head>
 
 <body>
     <!-- Шапка сайта -->
     <header class="header">
         <nav class="navigation">
-            <p lang="en"><a class="logo-header link" href=""><span class="logo-link">Web</span>Studio</a></p>
+            <a class="logo-header link" href="" lang="en"><span class="logo-link">Web</span>Studio</a>
             <ul class="navigation-list list">
                 <li class="navigation-item">
-                    <a class="navigation-link link" href="">Студия</a>
+                    <a class="navigation-link link current" href="/index.html">Студия</a>
                 </li>
                 <li class="navigation-item">
                     <a class="navigation-link link" href="/portfolio.html">Портфолио</a>
@@ -34,8 +33,14 @@
                 </li>
             </ul>
         </nav>
-        <a class="contact-link link" href="meilto:info@devstudio.com" lang="en">info@devstudio.com</a>
-        <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul class="contact-list list">
+            <li class="contact-item">
+                <a class="contact-header link" href="meilto:info@devstudio.com" lang="en">info@devstudio.com</a>
+            </li>
+            <li class="contact-item">
+                <a class="tel-header link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
     </header>
 
     <!--Основная часть-->
@@ -63,7 +68,8 @@
                 </li>
                 <li class="features-item">
                     <h3 class="features-list-title">Планирование</h3>
-                    <p class="features-list-description">Равным образом консультация с широким активом в значительной
+                    <p class="features-list-description">Равным образом консультация с широким активом в
+                        значительной
                         степени обуславливает.</p>
                 </li>
                 <li class="features-item">
@@ -77,11 +83,20 @@
         <!-- section about-->
         <section class="about">
             <h2 class="title">Чем мы занимаемся</h2>
-            <img class="about-img" src="./images/what_are_we_doing/img-1.jpg" alt="построение логики" width="370"
-                height="294">
-            <img class="about-img" src="./images/what_are_we_doing/img-2.jpg" alt="разработка приложений" width="370"
-                height="294">
-            <img class="about-img" src="./images/what_are_we_doing/img-3.jpg" alt="оформление" width="370" height="294">
+            <ul class="about-list list">
+                <li class="about-item">
+                    <img class="about-img" src="./images/what_are_we_doing/img-1.jpg" alt="построение логики"
+                        width="370" height="294">
+                </li>
+                <li class="about-item">
+                    <img class="about-img" src="./images/what_are_we_doing/img-2.jpg" alt="разработка приложений"
+                        width="370" height="294">
+                </li>
+                <li class="about-item">
+                    <img class="about-img" src="./images/what_are_we_doing/img-3.jpg" alt="оформление" width="370"
+                        height="294">
+                </li>
+            </ul>
         </section>
 
         <!-- section team-->
@@ -90,23 +105,23 @@
             <ul class="list">
                 <li class="team-item">
                     <img class="team-ing" src="./images/our_team/igor.jpg" alt="фото Игоря" width="270" height="260">
-                    <p class="team-list-title">Игорь Демьяненко</p>
-                    <p class="team-item" class="team-list-position" lang="en">Product Designer</p>
+                    <h3 class="team-list-title">Игорь Демьяненко</h3>
+                    <p class="team-list-position" lang="en">Product Designer</p>
                 </li>
                 <li class="team-item">
                     <img class="team-ing" src="./images/our_team/olga.jpg" alt="фото Ольги" width="270" height="260">
-                    <p class="team-list-title">Ольга Репина</p>
+                    <h3 class="team-list-title">Ольга Репина</h3>
                     <p class="team-list-position" lang="en">Frontend Developer</p>
                 </li>
                 <li class="team-item">
                     <img class="team-ing" src="./images/our_team/nick.jpg" alt="фото Николая" width="270" height="260">
-                    <p class="team-list-title">Николай Тарасов</p>
+                    <h3 class="team-list-title">Николай Тарасов</h3>
                     <p class="team-list-position" lang="en">Marketing</p>
                 </li>
                 <li class="team-item">
                     <img class="team-ing" src="./images/our_team/michael.jpg" alt="фото Михаила" width="270"
                         height="260">
-                    <p class="team-list-title">Михаил Ермаков</p>
+                    <h3 class="team-list-title">Михаил Ермаков</h3>
                     <p class="team-list-position" lang="en">UI Designer</p>
                 </li>
             </ul>
@@ -115,7 +130,7 @@
 
     <!-- Футер-->
     <footer class="footer">
-        <p lang="en"><a class="logo-footer link" href=""><span class="logo-link">Web</span>Studio</a></p>
+        <a class="logo-footer link" href="" lang="en"><span class="logo-link">Web</span>Studio</a>
         <address class="address">
             <ul class="list">
                 <li class="address-item">
@@ -124,15 +139,14 @@
                         пр-т ЛесиУкраинки,26</a>
                 </li>
                 <li class="address-item">
-                    <a class="contact-link link" href="meilto:info@devstudio.com" lang="en">info@devstudio.com</a>
+                    <a class="contact-footer link" href="meilto:info@devstudio.com" lang="en">info@devstudio.com</a>
                 </li>
                 <li class="address-item">
-                    <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="tel-footer link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
     </footer>
-
 </body>
 
 </html>
